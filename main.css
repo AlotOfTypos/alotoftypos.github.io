@@ -1,9 +1,9 @@
 :root {
     /*the higher the number behind c (colour) is the darker out of the chosen palette */
-    --c1:#cae2f7;
-    --c2: #bbd6ee;
-    --c3: #374955;
-    --c4: #2d414f;
+    --c1:#cae2f7; /* Dark theme Font colour*/
+    --c2: #bbd6ee; /* Light theme Background*/
+    --c3: #374955; /* Dark theme Background*/
+    --c4: #2d414f; /* Light theme Font colour*/
 }
 body{
     background: var(--bg);
