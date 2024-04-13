@@ -1,8 +1,9 @@
 :root {
-    --white:#E6DDDD;
-    --lightBlue: #9DB2BF;
-    --blue: #526D82;
-    --darkBlue: #27374D;
+    /*the higher the number behind c (colour) is the darker out of the chosen palette */
+    --c1:#cae2f7;
+    --c2: #bbd6ee;
+    --c3: #374955;
+    --c4: #2d414f;
 }
 body{
     background: var(--bg);
@@ -10,16 +11,16 @@ body{
     font-family: 'Gill Sans', Verdana, sans-serif;
 }
 .light-theme{
-    --bg: var(--lightBlue);
-    --fontColor:var(--darkBlue);
-    --btnBg: var(--blue);
-    --btnFontColor: var(--white);
+    --bg: var(--c2);
+    --fontColor:var(--c4);
+    --btnBg: var(--c3);
+    --btnFontColor: var(--c1);
 }
 .dark-theme{
-    --bg: var(--blue);
-    --fontColor: var(--lightBlue);
-    --btnBg: var(--lightBlue);
-    --btnFontColor: var(--darkBlue);
+    --bg: var(--c3);
+    --fontColor: var(--c1);
+    --btnBg: var(--c2);
+    --btnFontColor: var(--c4);
 }
 .btn{
     position: absolute;
