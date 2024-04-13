@@ -1,23 +1,23 @@
 :root {
-    --brightBlue:#c9e9f2;
-    --lightBlue: #7c94a4;
-    --blue: #446474;
-    --darkBlue: #203c49;
+    --white:#E6DDDD;
+    --lightBlue: #9DB2BF;
+    --blue: #526D82;
+    --darkBlue: #27374D;
 }
 body{
     background: var(--bg);
     color: var(--fontColor);
-    font-family: Verdana, sans-serif;
+    font-family: 'Gill Sans', Verdana, sans-serif;
 }
 .light-theme{
     --bg: var(--lightBlue);
     --fontColor:var(--darkBlue);
     --btnBg: var(--blue);
-    --btnFontColor: var(--brightBlue);
+    --btnFontColor: var(--white);
 }
 .dark-theme{
     --bg: var(--blue);
-    --fontColor: var(--brightBlue);
+    --fontColor: var(--lightBlue);
     --btnBg: var(--lightBlue);
     --btnFontColor: var(--darkBlue);
 }
@@ -26,9 +26,10 @@ body{
     top: 20px;
     right: 20px;
     height: 50px;
-    width: 50px;
+    width: 60px;
+    font-weight: bold;
     border-radius: 30%;
-    border: none;
+    border: solid;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
