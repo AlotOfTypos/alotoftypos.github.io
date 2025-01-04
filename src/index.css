@@ -4,9 +4,9 @@ html {
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #383f4d;
-  background: #06202e;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: #374955;
+  background: #132735;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
