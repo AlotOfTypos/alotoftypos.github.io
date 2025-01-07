@@ -4,7 +4,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Photo from '../../assets/images/websitePhoto.jpg';
 
-const Home = () => {
+const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [' ', 'Y', 'o', 'y', 'o']
 
@@ -19,7 +19,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="container home-page">
+            <div className="container portfolio-page">
                 <div className="text-zone">
                     <h1>
                         <span className={letterClass}>H</span>
@@ -56,4 +56,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Portfolio
