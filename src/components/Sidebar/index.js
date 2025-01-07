@@ -15,13 +15,13 @@ const Sidebar = () => (
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHome} color="#132735" />
+                <FontAwesomeIcon icon={faHome} color="#2E1E1E" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faUser} color="#132735" />
+                <FontAwesomeIcon icon={faUser} color="#2E1E1E" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} color="#132735" />
+                <FontAwesomeIcon icon={faEnvelope} color="#2E1E1E" />
             </NavLink>
         </nav>
         <ul>
@@ -31,7 +31,7 @@ const Sidebar = () => (
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/yoyochen7/"
                 >
-                    <FontAwesomeIcon icon = {faLinkedin} color = "#132735" />
+                    <FontAwesomeIcon icon = {faLinkedin} color = "#2E1E1E" />
                 </a>
             </li>
             <li>
@@ -40,7 +40,7 @@ const Sidebar = () => (
                 rel="noreferrer"
                 href="https://github.com/AlotOfTypos"
                 >
-                    <FontAwesomeIcon icon = {faGithub} color = "#132735" />
+                    <FontAwesomeIcon icon = {faGithub} color = "#2E1E1E" />
                 </a>
             </li>
         </ul>

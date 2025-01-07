@@ -1,11 +1,11 @@
 import './index.scss';
 
-const AnimatedLetters = ({ letterCalss, strArray, idx }) => {
+const AnimatedLetters = ({ letterClass, strArray, idx }) => {
     return (
         <span>
             {
                 strArray.map((char, i) => (
-                    <span key={char + i} className={`${letterCalss} ${i + idx}`}>
+                    <span key={char + i} className={`${letterClass} ${i + idx}`}>
                         {char}
                     </span>
                 ))
