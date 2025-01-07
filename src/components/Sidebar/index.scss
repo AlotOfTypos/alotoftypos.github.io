@@ -77,9 +77,9 @@
             }
         }
 
-        a.about-link {
+        a.portfolio-link {
             &:after {
-                content: 'ABOUT';
+                content: 'PORTFOLIO';
             }
         }
 
@@ -89,9 +89,9 @@
             }
         }
 
-        a.portfolio-link {
+        a.personal-link {
             &:after {
-                content: 'PORTFOLIO';
+                content: 'PERSONAL';
             }
         }
 
