@@ -1,6 +1,7 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
+// import Logo from '../PortfolioSlides';
 // import Loader from 'react-loaders'
 import { useState, useEffect } from 'react';
 
@@ -27,7 +28,7 @@ const Home = () => {
                     <span className={letterClass}> I'</span>
                     <span className={`${letterClass} _12`}>m</span>
                     <AnimatedLetters 
-                        className="name"
+                        //TODO: Make name orange and turns brown when hovered
                         letterClass={letterClass} 
                         strArray={nameArray}
                         idx={15} 
@@ -42,6 +43,7 @@ const Home = () => {
                     CONTACT ME
                 </Link>
             </div>
+            {/* <Logo /> */}
         </div>
     )
 }
